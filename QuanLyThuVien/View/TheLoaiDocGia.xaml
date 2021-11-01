@@ -1,0 +1,56 @@
+﻿<Window x:Class="QuanLyThuVien.Screens.LoaiDocGia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:QuanLyThuVien"
+        Title="QUẢN LÝ LOẠI ĐỘC GIẢ" Height="336" Width="412.5" ResizeMode="CanMinimize" Icon="/QuanLyThuVien;component/Resources/IconDocGia.ico">
+    <Window.DataContext>
+        <local:TheLoaiDocGiaViewModel/>
+    </Window.DataContext>
+    <Grid Style="{DynamicResource GridStyle}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="265*"/>
+            <ColumnDefinition Width="139*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="34*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="131*"/>
+        </Grid.RowDefinitions>
+        <Label Content="LOẠI ĐỘC GIẢ" HorizontalAlignment="Left" Margin="111,0,0,0" VerticalAlignment="Top" Width="190" FontSize="24" FontFamily="Times New Roman" FontWeight="Bold" Grid.ColumnSpan="2" Height="38" Grid.RowSpan="2" Foreground="#FFF90101"/>
+        <GroupBox Header="Loại độc giả" HorizontalAlignment="Left" Grid.Row="1" Width="245" Margin="10,0,0,52">
+            <Grid HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="235" Margin="0,0,-2,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Content="Tên loại độc giả" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="101"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="115,14,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding TenLoaiDocGia}" VerticalAlignment="Top" Width="110"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Column="1" Header="Điều khiển" Grid.Row="1" VerticalAlignment="Top" Margin="0,0,10,0" Height="256" Grid.RowSpan="2">
+            <Grid HorizontalAlignment="Left" Height="235" VerticalAlignment="Top" Width="119" Margin="0,0,-2,-1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Button Content="Tạo mới" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Margin="10,10,0,0" Height="27" Template="{DynamicResource ButtonStyle}" Command="{Binding AddNewCommand}"/>
+                <Button Content="Lưu" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="99" Height="27" Template="{DynamicResource ButtonStyle}" Command="{Binding SaveCommand}"/>
+                <Button Content="Sửa" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="99" Height="27" Template="{DynamicResource ButtonStyle}" Command="{Binding EditCommand}"/>
+                <Button Content="Xóa" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="99" Height="27" Template="{DynamicResource ButtonStyle}" Command="{Binding RemoveCommand}"/>
+                <Button Name="btThoat" Content="Thoát" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Margin="10,10,0,0" Grid.Row="4" RenderTransformOrigin="0.5,0.5" Height="27" Template="{DynamicResource ButtonStyle}" Click="btThoat_Click"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Danh sách loại độc giả" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Width="245" Height="187" Margin="10,69,0,0" Grid.RowSpan="2">
+            <DataGrid HorizontalAlignment="Left" Width="235" Margin="0,10,-2,-2"
+                      ItemsSource="{Binding ListLoaiDocGia, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                      SelectedItem="{Binding SelectLoaiDocGia, Mode=TwoWay}" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding MaLoaiDocGia, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Mã loại độc giả" Width="100"/>
+                    <DataGridTextColumn Binding="{Binding TenLoaiDocGia, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Tên loại độc giả" Width="140"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+    </Grid>
+</Window>

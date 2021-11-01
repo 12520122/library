@@ -1,0 +1,57 @@
+﻿<Window x:Class="QuanLyThuVien.View.DiemCacDauSach"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:QuanLyThuVien"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="DiemCacDauSach" Height="400.441" Width="533.921" ResizeMode="CanMinimize">
+    <Grid x:Name="mainGr">
+        <Grid.DataContext>
+            <local:TheDiemCacDauSach/>
+        </Grid.DataContext>
+        <Grid.Background>
+            <ImageBrush ImageSource="/QuanLyThuVien;component/Resources/skyBackground.jpg"/>
+        </Grid.Background>
+        <Label Content="Điểm các đầu sách" HorizontalAlignment="Left" Margin="147,0,0,0" VerticalAlignment="Top" Height="37" Width="214" FontSize="25" Foreground="Red" Grid.IsSharedSizeScope="True" FontFamily="Times New Roman"/>
+        <GroupBox Header="Danh sách các đầu sách" HorizontalAlignment="Left" Margin="0,42,0,0" VerticalAlignment="Top" Height="327" Width="526">
+            <!--<DataGrid  HorizontalAlignment="Left" VerticalAlignment="Top" Height="304" Width="512"  ItemsSource="{Binding ListDiemDauSach, Mode=TwoWay}" IsReadOnly="True" AutoGenerateColumns="False">
+                <DataGrid.ItemTemplate>
+                    <DataTemplate>
+                        
+                    </DataTemplate>
+                </DataGrid.ItemTemplate>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding TenSach, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Tên Sách" Width="70"/>
+                    <DataGridTextColumn Binding="{Binding SoLuotMuon, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Số Lượt Mượn" Width="120"/>
+                    <DataGridTextColumn Binding="{Binding DiemSo, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Điểm Số" Width="300"/>
+                </DataGrid.Columns>
+            </DataGrid>-->
+            <DataGrid x:Name="grDauSach" HorizontalAlignment="Left" VerticalAlignment="Top" Height="304" Width="512"  ItemsSource="{Binding ListDiemDauSach, Mode=TwoWay}" IsReadOnly="True" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Tên sách" Binding="{Binding TenSach, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Tổng số lượt mượn" Binding="{Binding SoLuotMuon, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Điểm số" Binding="{Binding DiemSo, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTemplateColumn Header="Đánh giá">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <ListBox ItemsSource="{Binding Lstdoituong, Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}">
+                                    <ListBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <Path Fill="DarkCyan"  Stroke="Transparent" StrokeThickness="1"
+    					                        Data="M 5,0 L 4,4 L 0,4 L 3,7 L 2,11 L 5,9 L 6,9 L 9,11 L 8,7 L 11,4 L 7,4 L 6,0"/>
+                                        </DataTemplate>
+                                    </ListBox.ItemTemplate>
+                                    <ListBox.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <WrapPanel Orientation="Horizontal"/>
+                                        </ItemsPanelTemplate>
+                                    </ListBox.ItemsPanel>
+                                </ListBox>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+
+    </Grid>
+</Window>

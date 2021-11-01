@@ -1,0 +1,75 @@
+﻿<Window x:Class="QuanLyThuVien.BaoCaoTKSachTraTre"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:local="clr-namespace:QuanLyThuVien"
+        Title="BÁO CÁO THỐNG KÊ SÁCH TRẢ TRỄ" Height="248" Width="564.8" ResizeMode="CanMinimize" Icon="/QuanLyThuVien;component/Resources/bao cao.png">
+    <Window.DataContext>
+        <local:BCTKSachTraTreViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+
+        <ControlTemplate x:Key="ErrorTemplate">
+            <DockPanel LastChildFill="True">
+                <Border BorderBrush="Red" BorderThickness="1">
+                    <AdornedElementPlaceholder/>
+                </Border>
+            </DockPanel>
+        </ControlTemplate>
+
+        <Style TargetType="TextBox">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip"
+                            Value="{Binding RelativeSource={x:Static RelativeSource.Self},Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid Style="{DynamicResource GridStyle}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="73*"/>
+            <RowDefinition Height="144*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="166*"/>
+            <ColumnDefinition Width="67*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="Thông tin báo cáo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="388" Height="63" Margin="10,0,0,0">
+            <Grid HorizontalAlignment="Left" Height="44" Margin="0,0,-2,-3" VerticalAlignment="Top" Width="367">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="183*"/>
+                    <ColumnDefinition Width="184*"/>
+                </Grid.ColumnDefinitions>
+                <!--<Label Content="Ngày lập" HorizontalAlignment="Left" Margin="0,8,0,0" VerticalAlignment="Top"/>-->
+                <Label Content="Ngày báo cáo" HorizontalAlignment="Left" Margin="53,10,0,0" VerticalAlignment="Top"/>
+                <!--<DatePicker HorizontalAlignment="Left" Margin="57,10,0,0" VerticalAlignment="Top" Width="116" IsEnabled="False" SelectedDate="{Binding NgayLap}"/>-->
+                <DatePicker x:Name="NgayBaoCao" HorizontalAlignment="Left" Margin="165,11,0,0" VerticalAlignment="Top" Width="116" IsEnabled="True" SelectedDate="{Binding NgayBaoCao}" Grid.ColumnSpan="2" PreviewTextInput="NgayBaoCao_PreviewTextInput"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Column="1" Header="Điều khiển" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="140" Height="207" Grid.RowSpan="2">
+            <Grid HorizontalAlignment="Left" Height="184" VerticalAlignment="Top" Width="130" Margin="0,0,-2,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60*"/>
+                    <RowDefinition Height="60*"/>
+                    <RowDefinition Height="60*"/>
+                </Grid.RowDefinitions>
+                <Button Name="btLuuBC" Content="Thống kê" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="110" Height="41" Template="{DynamicResource ButtonStyle}" Command="{Binding ActionCommand}"/>
+                <!--<Button Name="btInBC" Content="In báo cáo" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="110" Height="42" Template="{DynamicResource ButtonStyle}" Command="{Binding PrintCommand}"/>-->
+                <Button Name="btThoat" Content="Thoát" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="110" Height="41" Template="{DynamicResource ButtonStyle}" Click="btThoat_Click"/>
+                <Button x:Name="In" Content="Xuất tập tin" HorizontalAlignment="Left" Margin="10,11,0,0" Grid.Row="1" VerticalAlignment="Top" Width="110" Height="41" Template="{DynamicResource ButtonStyle}" Click="In_Click"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Danh sách" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Grid.RowSpan="2" Width="388" Height="139">
+            <DataGrid Name="DataGridBC" HorizontalAlignment="Left" Margin="0,10,-2,-1" VerticalAlignment="Top" Height="108" Width="378" ItemsSource="{Binding ListTraTre,Mode=TwoWay}" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <!--<DataGridTextColumn Binding="{Binding MaBCTKSachTraTre}"  Header="STT" Width="30"/>-->
+                    <DataGridTextColumn Binding="{Binding CuonSach.DauSach.TenDauSach}"  Header="Tên sách" Width="*"/>
+                    <DataGridTextColumn Binding="{Binding NgayMuon}"  Header="Ngày mượn" Width="72"/>
+                    <DataGridTextColumn Binding="{Binding SoNgayTraTre}"  Header="Số ngày trả trễ" Width="100"/>
+                    <!--<DataGridTextColumn Binding="{Binding GhiChu}"  Header="Ghi Chú" Width="*"/>-->
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+
+    </Grid>
+</Window>

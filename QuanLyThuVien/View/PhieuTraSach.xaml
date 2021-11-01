@@ -1,0 +1,99 @@
+﻿<Window x:Class="QuanLyThuVien.PhieuTraSach"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:QuanLyThuVien"
+        Title="PHIẾU TRẢ SÁCH" Height="393" Width="548.7" ResizeMode="CanMinimize">
+    <Window.DataContext>
+        <local:ThePhieuTraViewModel/>
+    </Window.DataContext>
+    <Grid Style="{DynamicResource GridStyle}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="199*"/>
+            <ColumnDefinition Width="209*"/>
+            <ColumnDefinition Width="133*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="179*"/>
+            <RowDefinition Height="144*"/>
+        </Grid.RowDefinitions>
+        <Label Content="TRẢ SÁCH" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Top" Width="137" FontSize="24" FontWeight="Bold" FontFamily="Times New Roman" Grid.Column="1" Foreground="#FFF30C0C"/>
+        <GroupBox Header="Độc giả" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Width="196" Height="113">
+            <Grid HorizontalAlignment="Left" Height="83" Margin="0,10,-3,-2" VerticalAlignment="Top" Width="187">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="16*"/>
+                    <RowDefinition Height="16*"/>
+                </Grid.RowDefinitions>
+                <Label Content="Mã độc giả" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="74"/>
+                <Label Content="Tên độc giả" HorizontalAlignment="Left" Margin="0,5,0,0" Grid.Row="1" VerticalAlignment="Top" Width="74"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="74,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" 
+                         Width="31" Text="{Binding MaDocGia}"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="74,9,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top"
+                         Width="103" IsEnabled="False" Text="{Binding TenDocGia}"/>
+                <Button Content="Tìm kiếm" HorizontalAlignment="Left" Margin="110,14,0,0" VerticalAlignment="Top" Width="67" Cursor="Hand" FontWeight="Bold" Foreground="#FF1019E0" Command="{Binding SearchDocGiaCommand}" Height="22" Background="{x:Null}" BorderBrush="{x:Null}" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Column="2" Header="Điều khiển" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="113" Height="169">
+            <Grid HorizontalAlignment="Left" Height="136" Margin="0,10,-2,0" VerticalAlignment="Top" Width="103">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="43*"/>
+                    <RowDefinition Height="43*"/>
+                    <RowDefinition Height="43*"/>
+                </Grid.RowDefinitions>
+                <Button Content="Thêm mới" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="83" Height="35" Template="{DynamicResource ButtonStyle}"/>
+                <Button Content="Lưu" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Top"
+                        Width="83" Height="36" Template="{DynamicResource ButtonStyle}"
+                        Command="{Binding SaveCommand}"/>
+                <Button Name="btThoat" Content="Thoát" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="2" VerticalAlignment="Top" 
+                        Width="83" Height="35" Template="{DynamicResource ButtonStyle}" Click="btThoat_Click"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Sách đang mượn" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="135">
+            <DataGrid HorizontalAlignment="Left" VerticalAlignment="Top" Height="125" Margin="0,0,0,-12" Width="199"
+                      ItemsSource="{Binding ListLeft}" SelectedItem="{Binding SelectedPhieuMuon}" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding CuonSach.MaCuonSach}"  Header="Mã sách"/>
+                    <DataGridTextColumn Binding="{Binding CuonSach.DauSach.TenDauSach}" Header="Tên sách"/>
+                    <DataGridTextColumn Binding="{Binding NgayMuon}" Header="Ngày mượn"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+        <Button Height="23" VerticalAlignment="Top" Margin="16,39,109,0" Grid.Row="2" Grid.Column="1"
+                Command="{Binding AddToRightCommand}">Thêm vào &gt;&gt;</Button>
+        <Button Name="RemoveButton" Grid.Column="1" Margin="16,77,0,46" Grid.Row="2"
+                Command="{Binding RemoveFromRightCommand}" HorizontalAlignment="Left" Width="85">&lt;&lt; Bỏ ra</Button>
+        <!--<GroupBox Grid.Column="1" Header="Sách trả" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="189" Height="169">
+            <Grid HorizontalAlignment="Left" Height="138" Margin="0,10,-2,-1" VerticalAlignment="Top" Width="179">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35*"/>
+                    <RowDefinition Height="35*"/>
+                    <RowDefinition Height="35*"/>
+                </Grid.RowDefinitions>
+                <Label Content="Mã sách" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                <Label Content="Tên sách" HorizontalAlignment="Left" Margin="10,5,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="69,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="71,9,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="98" IsEnabled="False"/>
+                <Button Content="Thêm" HorizontalAlignment="Left" Margin="71,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="98" Command="{Binding SaveCommand}" Template="{DynamicResource ButtonStyle}" Height="36"/>
+            </Grid>
+        </GroupBox>-->
+        <GroupBox Header="Sách trả" Grid.Row="2" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="135" Margin="122,0,0,0" Grid.Column="1">
+            <DataGrid HorizontalAlignment="Left" VerticalAlignment="Top" Height="125" Margin="0,0,0,-12"
+                      ItemsSource="{Binding ListRight}" AutoGenerateColumns="False" SelectedItem="{Binding SelectedPhieuTra}" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding PhieuMuon.CuonSach.MaCuonSach}" Header="Mã sách"/>
+                    <DataGridTextColumn Binding="{Binding PhieuMuon.CuonSach.DauSach.TenDauSach}" Header="Tên sách"/>
+                    <DataGridTextColumn Binding="{Binding PhieuMuon.NgayMuon}" Header="Ngày mượn"/>
+                    <DataGridTextColumn Binding="{Binding SoNgayMuon}" Header="Số ngày mượn"/>
+                    <DataGridTextColumn Binding="{Binding TienPhat}" Header="Tiền phạt"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+        <GroupBox Header="Thông tin phiếu trả" HorizontalAlignment="Left" Margin="4,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="196" Height="51" Grid.Column="1">
+            <Grid HorizontalAlignment="Left" Height="30" Margin="0,0,0,-1" VerticalAlignment="Top" Width="180">
+                <Label Content="Ngày trả" HorizontalAlignment="Left" Margin="0,-1,0,0" VerticalAlignment="Top"/>
+                <DatePicker x:Name="NgayTra" HorizontalAlignment="Left" Margin="56,1,0,0" VerticalAlignment="Top" Width="120" SelectedDate="{Binding NgayTra}" PreviewTextInput="NgayTra_PreviewTextInput"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</Window>

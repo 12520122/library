@@ -1,0 +1,107 @@
+﻿<Window x:Class="QuanLyThuVien.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MÀN HÌNH CHÍNH" Height="441" Width="693.2" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" Icon="Resources/mhc.ico" KeyDown="Window_KeyDown">
+    <Grid Margin="2,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="Resources/Main.png"/>
+        </Grid.Background>
+        <Menu HorizontalAlignment="Left" Height="24" Margin="222,39,0,0" VerticalAlignment="Top" Width="427" FontSize="16" FontWeight="Bold" Foreground="Blue">
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0E629C" Offset="0"/>
+                    <GradientStop Color="#FF56EAF1" Offset="1"/>
+                    <GradientStop Color="#FF2FA1C3" Offset="0.761"/>
+                    <GradientStop Color="#FF1DC9B9" Offset="0.301"/>
+                </LinearGradientBrush>
+            </Menu.Background>
+            <MenuItem Header="Hệ thống" Name="MenuHeThong">
+                <MenuItem.Icon>
+                    <Image Width="16" Height="16" Source="Resources/home.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem x:Name="miHDSD" Header="Hướng dẫn sử dụng" FontWeight="Normal" Click="miHDSD_Click" InputGestureText="F1"/>
+                <MenuItem x:Name="miThongTin" Header="Thông tin phần mềm" FontWeight="Normal" Click="miThongTin_Click" InputGestureText="F2">
+                    <MenuItem.Icon>
+                        <Image Width="16" Height="16" Source="Resources/about.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="miSaoLuuCSDL" Header="Sao lưu CSDL" FontWeight="Normal" Click="miSaoLuuCSDL_Click"/>
+                <Separator/>
+                <MenuItem x:Name="miPhanQuyen" Header="Phân Quyền" HorizontalAlignment="Left" Width="280" Click="miPhanQuyen_Click"/>
+                <MenuItem x:Name="miThoat" Header="Thoát" FontWeight="Normal" Click="miThoat_Click" InputGestureText="Alt+F4">
+                    <MenuItem.Icon>
+                        <Image Width="16" Height="16" Source="Resources/exit.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Mượn trả" Name="MenuMuonTra">
+                <MenuItem.Icon>
+                    <Image Width="16" Height="16" Source="Resources/muontra2.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem Name="miTraCuu" Header="Tra cứu sách" FontWeight="Normal" Click="miTraCuu_Click" InputGestureText="Ctrl+7"></MenuItem>
+                <MenuItem Name="miMuonSach" Header="Mượn sách" FontWeight="Normal" Click="miMuonSach_Click" InputGestureText="Ctrl+M"></MenuItem>
+                <MenuItem Name="miTraSach" Header="Trả sách" FontWeight="Normal" Click="miTraSach_Click" InputGestureText="Ctrl+T"/>
+                <Separator/>
+                <MenuItem Name="miThuTien" Header="Thu tiền phạt" FontWeight="Normal" Click="miThuTien_Click" InputGestureText="Ctrl+P">
+                    <MenuItem.Icon>
+                        <Image Height="16" Width="16" Source="Resources/money.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Danh mục" Name="MenuDanhMuc">
+                <MenuItem.Icon>
+                    <Image Width="16" Height="16" Source="Resources/danhmuc.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem Name="miNhapSach" Header="Quản lý sách" FontWeight="Normal" Click="miNhapSach_Click" InputGestureText="Alt+S">
+                    <MenuItem.Icon>
+                        <Image Height="16" Width="16" Source="Resources/add.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="miThemTacGia" Header="Thêm tác giả" FontWeight="Normal" Click="miThemTacGia_Click" InputGestureText="Alt+T"/>
+                <MenuItem Name="miThemDocGia" Header="Thêm độc giả" FontWeight="Normal" Click="miThemDocGia_Click" InputGestureText="Alt+D"/>
+                <MenuItem Name="miThemLoaiSach" Header="Thêm loại sách" FontWeight="Normal" Click="miThemLoaiSach_Click"/>
+                <MenuItem Name="miThemLoaiDocGia" Header="Thêm loại độc giả" FontWeight="Normal" Click="miThemLoaiDocGia_Click"/>
+                <MenuItem Name="miDaoHanTheDocGia"  Header="Đáo hạn thẻ độc giả" HorizontalAlignment="Left" Width="254" Click="miDaoHanTheDocGia_Click"/>
+                <MenuItem Name="miGiaHanMuonSach" Header="Gia hạn mượn sách" HorizontalAlignment="Left" Width="254" Click="miGiaHanMuonSach_Click"/>
+                <MenuItem Name="miThayDoiQuyDinh" Header="Thay đổi quy định" FontWeight="Normal" Click="miThayDoiQuyDinh_Click">
+                    <MenuItem.Icon>
+                        <Image Height="16" Width="16" Source="Resources/settings.png"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Báo cáo" Name="MenuBaoCao">
+                <MenuItem.Icon>
+                    <Image Width="16" Height="16" Source="Resources/baocao.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem Name="miBCTheoTL" Header="Mượn sách theo thể loại" FontWeight="Normal" Click="miBCTheoTL_Click"/>
+                <MenuItem Name="miBCSachTraTre" Header="Sách trả trễ" FontWeight="Normal" Click="miBCSachTraTre_Click"/>
+                <MenuItem Name="miTKSachCuMoi" Header="Thống kê sách cũ/ mới" HorizontalAlignment="Left" Width="257" Click="miTKSachCuMoi_Click"/>
+                <MenuItem Name="miDiemCacDauSach" Header="Điểm Các Đầu Sách" HorizontalAlignment="Left" Width="257" Click="miDiemCacDauSach_Click"/>
+                <MenuItem Name="miWebTV" Header="Web các thư viện" HorizontalAlignment="Left" Width="257" Click="miWebTV_Click"/>
+            </MenuItem>
+        </Menu>
+        <Grid HorizontalAlignment="Left" Height="262" Margin="126,102,0,0" VerticalAlignment="Top" Width="475">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="237*"/>
+                <ColumnDefinition Width="238*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button Name="btAddDocGia" HorizontalAlignment="Left" Margin="64,10,0,0" VerticalAlignment="Top" Width="110" Height="110" Template="{DynamicResource StyleButtonMenu}" Tag="Resources/doc gia.png" ToolTip="Độc giả" Click="btAddDocGia_Click"></Button>
+            <Button Name="btNhapSach" Grid.Column="1" HorizontalAlignment="Left" Margin="79,10,0,0" VerticalAlignment="Top" Width="110" Height="110" Template="{DynamicResource StyleButtonMenu}" Tag="Resources/nhap sach.jpg" ToolTip="Nhập sách" Click="btNhapSach_Click"></Button>
+            <Button Name="btTraCuu" HorizontalAlignment="Left" Margin="64,11,0,0" Grid.Row="1" VerticalAlignment="Top" Width="110" Height="110" Template="{DynamicResource StyleButtonMenu}" Tag="Resources/timkiemsach.png" ToolTip="Tra cứu sách" Click="btTraCuu_Click"></Button>
+            <Button Name="btQuyDinh" Grid.Column="1" HorizontalAlignment="Left" Margin="79,11,0,0" Grid.Row="1" VerticalAlignment="Top" Width="110" Height="110" Template="{DynamicResource StyleButtonMenu}" Tag="Resources/thay doi.png" ToolTip="Thay đổi quy định" Click="btQuyDinh_Click"></Button>
+        </Grid>
+        <Button Name="btThoatMenu" HorizontalAlignment="Left" Margin="605,314,0,0" VerticalAlignment="Top" Width="50" Height="50" Template="{DynamicResource StyleButtonMenu}" Tag="Resources/ExitWindow.png" ToolTip="Thoát" Click="btThoatMenu_Click"/>
+        <GroupBox Header="Đăng nhập" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Height="215" Width="128">
+            <PasswordBox Name="PassMatKhau" HorizontalAlignment="Left" Margin="0,93,0,0" VerticalAlignment="Top" Width="114" Height="22"/>
+        </GroupBox>
+        <TextBox Name="TextTaiKhoan" HorizontalAlignment="Left" Height="23" Margin="16,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" BorderBrush="White"/>
+        <Label  Content="Mật khẩu" HorizontalAlignment="Left" Margin="16,145,0,0" VerticalAlignment="Top" Width="91"/>
+        <Button Name="DangNhap" Content="Đăng nhập" HorizontalAlignment="Left" Margin="32,201,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.253,-1.7" Template="{DynamicResource ButtonStyle}" Click="DangNhap_Click"/>
+        <Button Name="DangXuat" Content="Đăng xuất" HorizontalAlignment="Left" Margin="32,239,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.373,-2.2" Template="{DynamicResource ButtonStyle}" Click="DangXuat_Click"/>
+        <Label Content="Tài Khoản" HorizontalAlignment="Left" Margin="16,88,0,0" VerticalAlignment="Top" Width="113"/>
+    </Grid>
+</Window>

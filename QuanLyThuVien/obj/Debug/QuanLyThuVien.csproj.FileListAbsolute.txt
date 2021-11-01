@@ -1,0 +1,352 @@
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.dll
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.dll
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.xml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.xml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleBackground.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleButton.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.cache
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.lref
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.g.resources
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Migrations.test.resources
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Migrations.test3.resources
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Migrations.test4.resources
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Migrations.updateTheDocGia.resources
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.g.cs
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.baml
+E:\baic\csharp\git\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.dll
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.xml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleBackground.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleButton.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.cache
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.lref
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.g.resources
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Migrations.test.resources
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Migrations.test3.resources
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Migrations.test4.resources
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Migrations.updateTheDocGia.resources
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheHuongDanSuDung.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheHuongDanSuDung.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheThongKeSachCuMoi.baml
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheThongKeSachCuMoi.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DiemCacDauSach.g.cs
+C:\Users\Truong\Desktop\QLTV\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DiemCacDauSach.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.dll
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.xml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleBackground.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleButton.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DiemCacDauSach.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\KetNoiDb.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\saoluuCSDL.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheThongKeSachCuMoi.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.cache
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.lref
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DiemCacDauSach.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\KetNoiDb.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\saoluuCSDL.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheThongKeSachCuMoi.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.g.resources
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+D:\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.dll
+D:\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.dll
+D:\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.xml
+D:\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.xml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheHuongDanSuDung.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleBackground.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleButton.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DiemCacDauSach.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\KetNoiDb.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\saoluuCSDL.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheHuongDanSuDung.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheThongKeSachCuMoi.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.cache
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.lref
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DiemCacDauSach.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\KetNoiDb.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\saoluuCSDL.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheThongKeSachCuMoi.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.g.resources
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDaoHanTheDocGia.g.cs
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDaoHanTheDocGia.baml
+D:\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.dll
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.xml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheHuongDanSuDung.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleBackground.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleButton.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DiemCacDauSach.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\fmTheDaoHanMuonSach.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\KetNoiDb.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\saoluuCSDL.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDaoHanTheDocGia.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheHuongDanSuDung.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheThongKeSachCuMoi.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.cache
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.lref
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DiemCacDauSach.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\fmTheDaoHanMuonSach.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\KetNoiDb.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\saoluuCSDL.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDaoHanTheDocGia.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheThongKeSachCuMoi.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.g.resources
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThePhanQuyen.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThePhanQuyen.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\LienKeWeb.baml
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\LienKeWeb.g.cs
+C:\Users\Truong\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.dll
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.dll
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.xml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.xml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\LienKeWeb.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleBackground.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\StyleButton.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\MainWindow.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DiemCacDauSach.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\fmTheDaoHanMuonSach.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\KetNoiDb.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\LienKeWeb.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\saoluuCSDL.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDaoHanTheDocGia.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThePhanQuyen.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheThongKeSachCuMoi.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\App.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.cache
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien_MarkupCompile.lref
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKMuonSachTTL.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\BaoCaoTKSachTraTre.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DanhSachSach.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\DiemCacDauSach.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\fmTheDaoHanMuonSach.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\KetNoiDb.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\saoluuCSDL.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDaoHanTheDocGia.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiDocGia.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\NhapSach.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuMuonSach.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuThuTienPhat.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\PhieuTraSach.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThePhanQuyen.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheTacGia.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThayDoiQuyDinh.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDocGia.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheLoaiSach.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheThongKeSachCuMoi.baml
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.g.resources
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+E:\QUANLYTHUVIEN\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\LienKeWeb.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\fmTheDaoHanMuonSach.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\LienKeWeb.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDaoHanTheDocGia.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThePhanQuyen.g.cs
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\fmTheDaoHanMuonSach.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\TheDaoHanTheDocGia.baml
+C:\Users\Hai Can\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\View\ThePhanQuyen.baml

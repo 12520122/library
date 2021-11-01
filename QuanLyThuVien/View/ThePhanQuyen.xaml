@@ -1,0 +1,51 @@
+﻿<Window x:Class="QuanLyThuVien.View.ThePhanQuyen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:QuanLyThuVien"
+        Title="ThePhanQuyen" Height="513" Width="601.442">
+    <Window.DataContext>
+        <local:CThePhanQuyen/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/QuanLyThuVien;component/Resources/skyBackground.jpg"/>
+        </Grid.Background>
+        <Label Content="Họ Tên Thành Viên" HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top" Width="118" FontSize="13"/>
+        <Label Content="    Địa Chỉ" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Width="118" FontSize="13"/>
+        <Label Content="    Chức Vụ" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label Content="    Tài Khoản" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label Content="    Mật Khẩu" HorizontalAlignment="Left" Margin="10,203,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label Content="Nhập Lại Mật Khẩu" HorizontalAlignment="Left" Margin="10,245,0,0" VerticalAlignment="Top" Width="118"/>
+        <TextBox x:Name="HoTenThanhVien" HorizontalAlignment="Left" Height="23" Margin="143,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" 
+                 Text="{Binding TenNguoiDung, Mode=TwoWay, ValidatesOnDataErrors=True, UpdateSourceTrigger=LostFocus, NotifyOnValidationError=True, ValidatesOnExceptions=True}"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="143,84,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="237"
+                 Text="{Binding DiaChi, Mode=TwoWay, ValidatesOnDataErrors=True, UpdateSourceTrigger=LostFocus, NotifyOnValidationError=True, ValidatesOnExceptions=True}"/>
+        <ComboBox HorizontalAlignment="Left" Margin="143,123,0,0" VerticalAlignment="Top" Width="237"
+                         ItemsSource="{Binding ListChucVu,Mode=TwoWay}"  SelectedItem="{Binding SelectedChucVu}" ScrollViewer.VerticalScrollBarVisibility="Visible">
+
+        </ComboBox>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="143,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" MaxLength="10"
+                 Text="{Binding TaiKhoan, Mode=TwoWay, ValidatesOnDataErrors=True, UpdateSourceTrigger=LostFocus, NotifyOnValidationError=True, ValidatesOnExceptions=True}"/>
+        <DataGrid x:Name="DataGirdThanhVien" HorizontalAlignment="Left" Margin="0,276,0,0" VerticalAlignment="Top" Height="206" Width="593"
+                  ItemsSource="{Binding ListThanhVien}" SelectedItem="{Binding SelectedThanhVien, Mode=TwoWay}" AutoGenerateColumns="False"
+                      IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding MaNguoiDung, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Mã thành viên" Width="100"/>
+                <DataGridTextColumn Binding="{Binding TenNguoiDung, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Họ Tên" Width="100"/>
+                <DataGridTextColumn Binding="{Binding DiaChi, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Địa Chỉ" Width="120"/>
+                <DataGridTextColumn Binding="{Binding chucvu, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Chức Vụ" Width="70"/>
+                <DataGridTextColumn Binding="{Binding TaiKhoan, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Tài Khoản" Width="100"/>
+                <DataGridTextColumn Binding="{Binding MatKhau, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Mật Khẩu" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Phân Quyền" HorizontalAlignment="Left" Margin="215,2,0,0" VerticalAlignment="Top" Width="249" FontSize="25" FontFamily="Times New Roman" Foreground="Red"/>
+        <Button Content="Thêm" HorizontalAlignment="Left" Margin="456,46,0,0" VerticalAlignment="Top" Width="104" Height="34" Template="{DynamicResource ButtonStyle}" Command="{Binding Them,Mode=TwoWay}"/>
+        <Button Content="Xóa" HorizontalAlignment="Left" Margin="456,153,0,0" VerticalAlignment="Top" Width="104" Height="33" Template="{DynamicResource ButtonStyle}" Command="{Binding Xoa,Mode=TwoWay}"/>
+        <Button Content="Thoát" HorizontalAlignment="Left" Margin="456,203,0,0" VerticalAlignment="Top" Width="104" Height="35" Template="{DynamicResource ButtonStyle}" Click="Button_Click" />
+        <TextBox Name="MatKhau" HorizontalAlignment="Left" Height="23" Margin="143,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" MaxLength="10"
+                 Text="{Binding MatKhau, Mode=TwoWay, ValidatesOnDataErrors=True, UpdateSourceTrigger=LostFocus, NotifyOnValidationError=True, ValidatesOnExceptions=True}"/>
+        <TextBox Name="NhapLaiMatKhau" HorizontalAlignment="Left" Height="23" Margin="143,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" MaxLength="10"
+                 Text="{Binding NhapLaiMatKhau, Mode=TwoWay, ValidatesOnDataErrors=True, UpdateSourceTrigger=LostFocus, NotifyOnValidationError=True, ValidatesOnExceptions=True}"/>
+        <Button Content="Sữa" HorizontalAlignment="Left" Margin="456,103,0,0" VerticalAlignment="Top" Width="104" Height="33" Template="{DynamicResource ButtonStyle}" Command="{Binding Sua,Mode=TwoWay}"/>
+    </Grid>
+</Window>

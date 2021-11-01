@@ -1,0 +1,12 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Style x:Key="GridStyle" TargetType="{x:Type Grid}">
+		<Setter Property="Background">
+			<Setter.Value>
+				<ImageBrush ImageSource="Resources\skyBackground.jpg" Stretch="Fill"/>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<!-- Resource dictionary entries should be defined here. -->
+</ResourceDictionary>
